@@ -8,6 +8,9 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 
 ## Objectives
 
+<img width="575" height="302" alt="image" src="https://github.com/user-attachments/assets/aec337fa-15e9-49d3-91ce-d1a04b3b4486" />
+
+
 - Understand forensic evidence handling principles
 - Perform forensic file acquisition
 - Verify evidence integrity using cryptographic hashes
