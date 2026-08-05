@@ -1,7 +1,5 @@
 # System Forensics
 
-# System Forensics Lab
-
 ## Overview
 
 This repository contains practical exercises and documentation covering the fundamentals of digital forensics. The project focuses on collecting, preserving, and analyzing digital evidence using Linux and Windows forensic tools.
