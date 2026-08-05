@@ -1,4 +1,4 @@
-### Forensic Deletion
+## Forensic Deletion
 
 When files are deleted by the user, the data does not magically disappear, instead, the allocated space is simply marked for free use, it then becomes inaccessible to the user by regular means. The 
 forensically safe way to wipe a file is to directly overwrite it with zeros. 
