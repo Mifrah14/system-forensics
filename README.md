@@ -52,7 +52,7 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 - Deleted file recovery
 - USB device investigation
 
-  
+
 ## 💡 Key Concepts Learned
 - dd produces forensically sound bit-for-bit copies by operating at the block level, unlike cp, which only copies at the file level and can miss deleted data, slack space, and metadata.
 - md5sum was used to verify that copied files were bit-for-bit identical to their originals — matching hashes confirm data integrity, while a mismatch would indicate the copy process altered the evidence.
