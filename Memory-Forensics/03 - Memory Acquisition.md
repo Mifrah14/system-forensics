@@ -1,4 +1,4 @@
-### RAM / Memory Forensics with LiME
+# RAM / Memory Forensics with LiME
 
 ## Overview
 This section covers acquiring a forensic image of volatile memory (RAM) on a live Linux system using LiME (Linux Memory Extractor), then extracting and searching readable data from the raw dump.
@@ -33,7 +33,7 @@ Extracted printable ASCII strings from the raw binary dump, producing a 181MB se
 
 Once the raw memory dump was converted to readable text, grep was used to search for specific categories of forensically relevant data. Each search targets a different type of artifact that commonly persists in RAM — credentials, network activity, and remote access sessions — since these often exist only in memory and leave no trace on disk.
 
-# 5.1 Passwords
+### 5.1 Passwords
 
 grep -i "passwd" /home/mifrahkhan/Desktop/results.txt | head -20
 
@@ -56,7 +56,7 @@ File access traces — RAM retains references to files that were opened, listed,
 
 <img width="592" height="372" alt="image" src="https://github.com/user-attachments/assets/10cb419a-ce24-435c-8b56-c0add85278b1" />
 
-# 5.2 Web Activity
+### 5.2 Web Activity
 
 grep -i "http://\|https://" /home/mifrahkhan/Desktop/results.txt | head -20
 
