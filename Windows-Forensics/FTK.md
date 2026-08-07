@@ -1,6 +1,6 @@
-#🪟 Windows Forensics — FTK Imager
+# 🪟 Windows Forensics — FTK Imager
 
-##📋 Overview
+## 📋 Overview
 
 Using FTK Imager to create a forensic image of a USB drive, verify its integrity via hashing, and explore the image to recover deleted data.
 
