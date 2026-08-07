@@ -53,13 +53,13 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 - USB device investigation
 
   
-💡 Key Concepts Learned
+## 💡 Key Concepts Learned
 - dd produces forensically sound bit-for-bit copies by operating at the block level, unlike cp, which only copies at the file level and can miss deleted data, slack space, and metadata.
 - md5sum was used to verify that copied files were bit-for-bit identical to their originals — matching hashes confirm data integrity, while a mismatch would indicate the copy process altered the evidence.
 - Deleted files remain recoverable until the underlying disk space is physically overwritten — deletion only removes the file's directory reference, not the actual data.
 - Volatile memory (RAM) can contain credentials, session data, and file access traces that never touch disk and disappear permanently once the system is powered off.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This repository is for educational purposes only, documenting forensic techniques practiced in a personal, controlled lab environment (isolated virtual machines). All files, evidence, and data used were created or owned by me specifically for this project — no real-world systems, third-party data, or unauthorized access were involved. The techniques described here should only be applied to systems you own or have explicit permission to test.
 
