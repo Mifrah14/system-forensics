@@ -15,7 +15,6 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 - Securely overwrite files to prevent recovery
 - Acquire and analyze volatile memory (RAM)
 - Create and examine forensic disk images
-- Investigate USB device activity
 
 ## 🖥️ Environment
 
@@ -31,7 +30,6 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 - xxd (binary file analysis)
 - LiME (Linux Memory Extractor)
 - FTK Imager
-- USBDeview
 
 ## 🧩 Topics Covered
 
@@ -50,8 +48,6 @@ The purpose of this lab is to understand how forensic investigators acquire evid
 ### Windows Forensics
 - Disk imaging
 - Deleted file recovery
-- USB device investigation
-
 
 ## 💡 Key Concepts Learned
 - dd produces forensically sound bit-for-bit copies by operating at the block level, unlike cp, which only copies at the file level and can miss deleted data, slack space, and metadata.
